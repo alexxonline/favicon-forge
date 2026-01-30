@@ -1,4 +1,4 @@
-# Favicon Creator
+# Favicon Forge
 
 Generate SVG favicons from text prompts. The backend uses Gemini image generation ("Nano Banana") to create a raster icon, then vectorizes it with vtracer. The frontend provides a prompt textarea, preview, and download.
 
