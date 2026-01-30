@@ -76,7 +76,7 @@ def generate_favicon(request: GenerateRequest) -> GenerateResponse:
     client = genai.Client(api_key=api_key)
 
     full_prompt = (
-        "Create a clean, centered favicon icon with a transparent background. "
+        "Create a clean, centered favicon icon with a solid white background. "
         "Use flat colors, minimal detail, and a single subject. Prompt: "
         f"{prompt}"
     )
