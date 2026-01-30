@@ -1,0 +1,2 @@
+- 2026-01-30: Gemini image generation responses may store image bytes in inline_data; handle both bytes and base64 string payloads.
+- 2026-01-30: vtracer can convert PNG bytes directly to SVG via convert_raw_image_to_svg for favicon workflows.
